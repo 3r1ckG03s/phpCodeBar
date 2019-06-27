@@ -4,13 +4,14 @@
                 $conexao = mysqli_connect("localhost","er1ckg03s","","tb_barcode");
                                  //server - usuario - senha - banco
                 
-                $nome= $_POST['nome'];
-                $barra= $_POST['barra'];
+                $codigo = $_POST['codigo'];
+                $modelo = $_POST['modelo'];
+                $fabricante = $_POST['fabricante'];
                 $valor= $_POST['valor'];
                 $descricao= $_POST['descricao'];
                 $processador= $_POST['processador'];
                 $sistema= $_POST['sistema'];
-                $tela= $_POST['tela'];
+                $tela= $_POST['tamanhoTela'];
                 $wifi= $_POST['wifi'];
                 $cameras= $_POST['cameras'];
                 $resolucao= $_POST['resolucao'];
