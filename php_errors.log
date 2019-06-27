@@ -1,0 +1,46 @@
+[18-Jun-2019 18:06:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/webservices/listar-um.php on line 14
+[18-Jun-2019 18:06:57 UTC] PHP Stack trace:
+[18-Jun-2019 18:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/webservices/listar-um.php:0
+[18-Jun-2019 18:06:57 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/webservices/listar-um.php:14
+[18-Jun-2019 18:18:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/webservices/listar-um.php on line 14
+[18-Jun-2019 18:18:12 UTC] PHP Stack trace:
+[18-Jun-2019 18:18:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/webservices/listar-um.php:0
+[18-Jun-2019 18:18:12 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/webservices/listar-um.php:14
+[18-Jun-2019 18:20:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/webservices/listar-um.php on line 14
+[18-Jun-2019 18:20:12 UTC] PHP Stack trace:
+[18-Jun-2019 18:20:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/webservices/listar-um.php:0
+[18-Jun-2019 18:20:12 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/webservices/listar-um.php:14
+[18-Jun-2019 18:26:19 UTC] PHP Parse error:  syntax error, unexpected ''aparelho'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 11
+[18-Jun-2019 18:30:30 UTC] PHP Parse error:  syntax error, unexpected ''aparelho'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 11
+[18-Jun-2019 18:32:26 UTC] PHP Parse error:  syntax error, unexpected ''aparelho'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 11
+[18-Jun-2019 18:32:30 UTC] PHP Parse error:  syntax error, unexpected ''aparelho'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 11
+[18-Jun-2019 18:32:54 UTC] PHP Parse error:  syntax error, unexpected ''aparelho'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 10
+[18-Jun-2019 18:36:18 UTC] PHP Parse error:  syntax error, unexpected ''aparelho'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 10
+[18-Jun-2019 19:03:50 UTC] PHP Parse error:  syntax error, unexpected ''aparelho'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 10
+[18-Jun-2019 19:04:40 UTC] PHP Parse error:  syntax error, unexpected ''aparelho'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 10
+[18-Jun-2019 19:05:13 UTC] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 10
+[18-Jun-2019 19:06:01 UTC] PHP Parse error:  syntax error, unexpected ''aparelho'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 10
+[18-Jun-2019 19:23:15 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/webservices/listar.php on line 32
+[18-Jun-2019 19:23:15 UTC] PHP Stack trace:
+[18-Jun-2019 19:23:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/webservices/listar.php:0
+[18-Jun-2019 19:27:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/webservices/listar.php on line 14
+[18-Jun-2019 19:27:01 UTC] PHP Stack trace:
+[18-Jun-2019 19:27:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/webservices/listar.php:0
+[18-Jun-2019 19:27:01 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/webservices/listar.php:14
+[18-Jun-2019 19:36:37 UTC] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ')' in /home/ubuntu/workspace/webservices/listar.php on line 13
+[25-Jun-2019 17:00:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/webservices/delete.php on line 9
+[25-Jun-2019 17:00:02 UTC] PHP Stack trace:
+[25-Jun-2019 17:00:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/webservices/delete.php:0
+[25-Jun-2019 17:00:02 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/webservices/delete.php:9
+[25-Jun-2019 17:00:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/webservices/listar-um.php on line 14
+[25-Jun-2019 17:00:08 UTC] PHP Stack trace:
+[25-Jun-2019 17:00:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/webservices/listar-um.php:0
+[25-Jun-2019 17:00:08 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/webservices/listar-um.php:14
+[25-Jun-2019 17:00:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/webservices/update.php on line 21
+[25-Jun-2019 17:00:15 UTC] PHP Stack trace:
+[25-Jun-2019 17:00:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/webservices/update.php:0
+[25-Jun-2019 17:00:15 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/webservices/update.php:21
+[25-Jun-2019 17:25:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/webservices/delete.php on line 10
+[25-Jun-2019 17:25:17 UTC] PHP Stack trace:
+[25-Jun-2019 17:25:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/webservices/delete.php:0
+[25-Jun-2019 17:25:17 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/webservices/delete.php:10

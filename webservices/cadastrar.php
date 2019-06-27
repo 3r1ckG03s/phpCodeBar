@@ -1,28 +1,27 @@
 <?php
-    try{
-        $conexao = mysqli_connect("localhost","er1ckg03s","","tb_barcode");
+          
+            try{
+                $conexao = mysqli_connect("localhost","er1ckg03s","","tb_barcode");
                                  //server - usuario - senha - banco
-   
-        $query = "select * from aparelho order by ds_codebar asc";
-        
-        $resultado = mysqli_query($conexao,$query);
-        
-        $registro = array(
-            'aparelho' => array()
-        );
-        
-        $i = 0;
-        
-        while($linha = mysqli_fetch_assoc($resultado)){
-            $registro['aparelho'][$i] = array(
-                'codigo' => $linha['ds_codebar'],
-                );
                 
-                $i++;
-        }
-        echo json_encode($registro);
-    }
-        catch (Exception $e){
-            echo "Erro ao buscar: ".$e;
-    }
+                $nome= $_POST['nome'];
+                $barra= $_POST['barra'];
+                $valor= $_POST['valor'];
+                $descricao= $_POST['descricao'];
+                $processador= $_POST['processador'];
+                $sistema= $_POST['sistema'];
+                $tela= $_POST['tela'];
+                $wifi= $_POST['wifi'];
+                $cameras= $_POST['cameras'];
+                $resolucao= $_POST['resolucao'];
+                $memoria= $_POST['memoria'];
+                
+                $query="INSERT INTO aparelho VALUES (null,  '$nome',  '$barra', '$valor', '$descricao', '$processador','$sistema', '$tela', '$wifi', '$cameras','$resolucao','$memoria')";
+                
+                mysqli_query($conexao,$query);
+                
+                echo "Cadastro realizado com sucesso!";
+            }catch(Exception $e){
+                echo "Erro ao conectar: ".$e;
+            }
 ?>

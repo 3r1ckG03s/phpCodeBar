@@ -6,7 +6,7 @@
                 
                 $id = $_GET['id'];
                 
-               $query="SELECT * FROM tb_celular order by cd_celular = $id";
+               $query="SELECT * FROM aparelho order by cd_celular = $id";
                 
                 $resultado = mysqli_query($conexao,$query);
                 
@@ -16,8 +16,8 @@
                     
                     $registro = array(
                         'celular' => array(
-                        'codigo' => $linha['cd_produto'],
-                        'nome' => $linha['nm_produto'],
+                        'codigo' => $linha['cd_celular'],
+                        'nome' => $linha['nm_celular'],
                         'barra' => $linha['cd_barra'],
                         'valor' => $linha['vl_celular'],
                         'descricao' => $linha['ds_geral'],

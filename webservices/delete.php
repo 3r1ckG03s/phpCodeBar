@@ -1,14 +1,14 @@
 <?php
-    try{
-        $conexao = mysqli_connect("localhost","er1ckg03s","","tb_barcode");
+    try {
+         $conexao = mysqli_connect("localhost","er1ckg03s","","tb_barcode");
                                  //server - usuario - senha - banco
+    
         $id = $_GET['id'];
         
-        $query = "delete from pessoas where cd_produto = $id";
+        $query = "delete from aparelho where cd_produto = $id";
         
         mysqli_query($conecta,$query);
-        echo "registro removido";
-    }catch (Exception $e) {
-        echo "erro ao deletar: ".$e;
+        echo "registro removido com sucesso";
+    } catch (Exception $e ) {
+        echo "Erro ao deletar: ".$e;
     }
-?>
